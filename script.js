@@ -6,7 +6,7 @@
 // let idx = 1;
 // let speed = 300 / getElementById("speed").value;
 
-// // initial call
+
 // writeText();
 
 // function writeText() {
@@ -28,8 +28,8 @@
 
 
 var i = 0;
-var txt = 'Hadiseh Shiroudi!'; /* The text */
-var speed = 150; /* The speed/duration of the effect in milliseconds */
+var txt = 'Hadiseh Shiroudi!'; 
+var speed = 150;
 
 window.onload = function typeName() {
   if (i < txt.length) {
