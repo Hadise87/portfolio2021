@@ -37,4 +37,19 @@ window.onload = function typeName() {
     i++;
     setTimeout(typeName, speed);
   }
+  var theDelay2 = 3;
+  var theDelay3 = 4;
+  var timer = setTimeout("showText1()",theDelay2*1000)
+  var timer = setTimeout("showText2()",theDelay3*1000)
 }
+function showText1(){
+  document.getElementById("delayedTextline2").style.visibility = "visible";
+
+}
+function showText2(){
+  document.getElementById("delayedTextline3").style.visibility = "visible";
+
+}
+
+
+
