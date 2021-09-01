@@ -15,6 +15,22 @@ body{
   height: 150px;
   width: 150px;
 }
+.loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #e9967a; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear 3; 
+  margin-top: 250px;
+}
+
+@keyframes spin {
+  0% { transform: rotate(10deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
 .intro { 
 	font-family: "Muli", sans-serif;
 	background: darksalmon;
@@ -27,6 +43,7 @@ body{
   text-align: center;
   width: 100%;
 }
+
 
 input {
 	width: 50px;
@@ -48,18 +65,25 @@ input {
 }
 
 
-
-.loader {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #e9967a; /* Blue */
-  border-radius: 50%;
-  width: 120px;
-  height: 120px;
-  animation: spin 2s linear 3; 
-  margin-top: 250px;
+.calculator, .carpet, .tictactoe{
+  display: flex;
+}
+.calc-txt, .carpet-txt, .tictactoe-txt{
+  width: 40%;
+  height: 40PX;
+  padding: 20px;
+  margin-left: 90px;
 }
 
-@keyframes spin {
-  0% { transform: rotate(10deg); }
-  100% { transform: rotate(360deg); }
-}
+.calc-img, .carpet-img, .tictactoe-img{
+    width: 290px;
+    height: 450PX;
+    padding: 20px;
+    margin-left: 260px;
+    border-radius: 35px;
+  } 
+  
+  
+
+
+

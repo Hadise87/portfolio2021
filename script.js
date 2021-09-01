@@ -51,5 +51,10 @@ function showText2(){
 
 }
 
+function mouseOver() {
+  var img = document.querySelector("#photo");
+  img.height = 100;
+}
+
 
 
