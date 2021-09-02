@@ -1,23 +1,23 @@
 
 body{
-  background: darksalmon;
+  background: #264654;
 }
 
 * {
   box-sizing: border-box;
   /* background: darksalmon; */
 }
-.header{
+/* .header{
   height: 1vh;
   width: auto;
-}
+} */
 .avataar{
   height: 150px;
   width: 150px;
 }
 .loader {
-  border: 16px solid #f3f3f3; /* Light grey */
-  border-top: 16px solid #e9967a; /* Blue */
+  border: 16px solid #f3f3f3; 
+  border-top: 16px solid #e9967a;
   border-radius: 50%;
   width: 120px;
   height: 120px;
@@ -48,11 +48,11 @@ body{
 input {
 	width: 50px;
 }
-#name{
+#myname{
   font-family: 'Orbitron', sans-serif;
   font-size: 60px;
 }
-.line2{
+.line2{ 
   font-family: 'vollkorn', sans-serif;
   font-size: 40px;
   margin-bottom: 1px;
@@ -83,6 +83,182 @@ input {
     border-radius: 35px;
   } 
   
+
+                            /*///////////////// FOOTER //////////////////*/
+.footer .contact{
+    text-align: center;
+    font-size: 25px;
+    font-size: 30px;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+  .footer .contact-txt{
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  }
+
+.main{
+  width:100%;
+	padding-top:30px;
+}
+.form{
+  background-color:#797470;
+	padding-left:35px;
+	padding-right:35px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 750px;
+	float: left;
+	left: 43%;
+	position: absolute;
+	margin-left: -260px;
+}
+
+.form-name{
+  opacity:1;
+	color:#D17D5B;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight:400;
+	font-size: 5px;
+	border-radius: 3px;
+	line-height: 22px;
+	background-color: #fbfbfb;
+  border: 3px solid #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.form-name:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #D17D5B;
+	color: #D17D5B;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+.focused{
+	color:#D17D5B;
+	border:#D17D5B solid 3px;
+}
+
+
+
+
+.form-mail{
+  opacity:0.9;
+	color:#D17D5B;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight:400;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+  border: 3px solid #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.form-mail:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #D17D5B;
+	color: #D17D5B;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+.focused{
+	color:#D17D5B;
+	border:#D17D5B solid 3px;
+}
+
+.form-msg{
+  opacity:0.9;
+	color:#D17D5B;
+	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-weight:400;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 132px;
+	background-color: #fbfbfb;
+  border: 3px solid #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.form-msg:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #D17D5B;
+	color: #D17D5B;
+	outline: none;
+  padding: 13px 13px 13px 54px;
+}
+.focused{
+	color:#D17D5B;
+	border:#D17D5B solid 3px;
+}
+
+
+
+#name, #email, #message {
+  font-size: 18px;
+}
+
+#btn-send{
+  font-family: 'Montserrat', Helvetica, Arial,  sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor:pointer;
+	background-color: #D17D5B;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+#button-blue:hover{
+	background-color: rgba(0,0,0,0);
+	color: #D17D5B;
+}
+	
+.submit:hover {
+	color: #D17D5B;
+}
+
+
+/* @media only screen and (max-width: 580px) {
+	.form{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+  } */
+
+  
+
+
   
 
 

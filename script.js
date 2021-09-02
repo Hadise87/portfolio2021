@@ -33,7 +33,7 @@ var speed = 150;
 
 window.onload = function typeName() {
   if (i < txt.length) {
-    document.getElementById("name").innerHTML += txt.charAt(i);
+    document.getElementById("myname").innerHTML += txt.charAt(i);
     i++;
     setTimeout(typeName, speed);
   }
