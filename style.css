@@ -84,7 +84,10 @@ input {
   } 
   
 
-                            /*///////////////// FOOTER //////////////////*/
+														/*///////////////// FOOTER //////////////////*/
+	.footer{
+		background-color: #38aaa4;
+		}
 .footer .contact{
     text-align: center;
     font-size: 25px;
