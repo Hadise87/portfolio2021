@@ -78,19 +78,33 @@ input {
   padding: 20px;
   margin-left: 90px;
 }
-
-.calc-img, .carpet-img, .tictactoe-img{
-    width: 370px;
-    height: 450PX;
+.calc-img{
+	width: 320px;
+    height: 440PX;
     padding: 20px;
-    margin-left: 260px;
+    margin-left: 180px;
     border-radius: 35px;
-  } 
+
+}
+.carpet-img {
+    width: 490px;
+    height: 350PX;
+    padding: 20px;
+    margin-left: 150px;
+    border-radius: 35px;
+	} 
+	.tictactoe-img{
+		width: 420px;
+    height: 420PX;
+    padding: 20px;
+    margin-left: 130px;
+    /* border-radius: 35px; */
+	}
   
 
 														/*///////////////// FOOTER //////////////////*/
 	.footer{
-		background-color: #38aaa4;
+		background-color: #ffe8d6;
 		}
 .footer .contact{
     text-align: center;
@@ -318,4 +332,16 @@ input {
 
 .portfolio{
 	margin-top: 20px;
+	/* border-bottom: 3px solid #614123; */
+	/* border-top: 3px solid #614123; */
+
+}
+.calculator{
+	background-color: #f7e1d2;
+}
+.carpet{
+	background-color: #f7dbc9;
+}
+.tictactoe{
+	background-color: #eccfbc;
 }

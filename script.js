@@ -59,6 +59,7 @@ function mouseOver() {
 
 
 setTimeout(() => {
-  document.getElementById("classname").style.display = "none"
-   
+  document.getElementById("all").style.display = "none"
+  document.getElementById("loader").style.display = "block"
+
 }, 500);
