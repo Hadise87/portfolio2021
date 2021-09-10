@@ -58,3 +58,7 @@ function mouseOver() {
 
 
 
+setTimeout(() => {
+  document.getElementById("classname").style.display = "none"
+   
+}, 500);
