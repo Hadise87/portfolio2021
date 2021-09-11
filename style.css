@@ -20,7 +20,10 @@ html{
   height: 150px;
   width: 150px;
 }
-/* .loader {
+#all{
+	display: none;
+}
+#loader {
   border: 16px solid #f3f3f3; 
   border-top: 16px solid #e9967a;
   border-radius: 50%;
@@ -34,7 +37,7 @@ html{
 @keyframes spin {
   0% { transform: rotate(10deg); }
   100% { transform: rotate(360deg); }
-} */
+}
 
 
 .intro { 

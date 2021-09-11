@@ -28,7 +28,7 @@
 
 
 var i = 0;
-var txt = 'Hadiseh Shiroudi!'; 
+var txt = 'Hello !'; 
 var speed = 150;
 
 window.onload = function typeName() {
@@ -59,7 +59,7 @@ function mouseOver() {
 
 
 setTimeout(() => {
-  document.getElementById("all").style.display = "none"
-  document.getElementById("loader").style.display = "block"
+  document.getElementById("loader").style.display = "none"
+  document.getElementById("all").style.display = "block"
 
-}, 500);
+}, 2000);
