@@ -12,13 +12,14 @@
   <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet"> 
   <title>PORTFOLIO</title>
 </head>
+<STYLE>A {text-decoration: none;} </STYLE>
 <body> 
   <!-- <div class="loader"></div>  -->
   <div class="all">
               <!-- ////////////////////////////   HEADER   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
       <header>
         <nav>
-          <div class="row">
+          <div class="row-nav">
               <img class="avataar" src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=CollarSweater&clotheColor=PastelOrange&eyeType=Default&eyebrowType=Default&mouthType=Smile&skinColor=Light'/>
                 <ul class="main-nav">
                     <li> <a href="#about-me">About me</a></li> 
@@ -44,7 +45,7 @@
       <div class="about" id="about-me">
       
             <div class="about-pic">
-              <img src='https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight2&accessoriesType=Blank&hairColor=Brown&facialHairType=Blank&clotheType=CollarSweater&clotheColor=PastelOrange&eyeType=Default&eyebrowType=Default&mouthType=Smile&skinColor=Light'/>
+             <img class="about-img" src="./IMG_6122.jpg" alt="" height="250px" width="200px">
             </div>
             <div class="about-txt">
               <h1> About me</h1>
@@ -59,28 +60,61 @@
 
             <!-- ////////////////////////////   portfolio   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
 
-      <section id="portfolio" class="portfolio">
+      
+                                  <!--                CALCULATOR                    -->     
+        
+          <div class="calculator">
+            <div class="row">
+              <div class="calc-txt">
+                <ul class="ul-calculator">
+                  <a target="_blank" href="./calculator/index.html"><h3>Calculator</h3></a>
+                  <li>- You can add, subtract, multiply and divide two numbers.</li>
+                  <li>- You can clear the input field with a clear button.</li>
+                  <li>- You can keep chaining mathematical operations together until you hit the equal button, and the calculator will tell me the correct output.</li>
+                </ul>
+                
+              </div>
+              <div class="calc-img">
+                <a href="./calculator/index.html"> <img class="calc-img" id="#photo" src="./calculator.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+
+                                     <!--                CARPET                    -->
+
+          <div class="carpet">
+            <div class="carpet-img">
+                <a href="./carpet/carpet.html"> <img class="carpet-img" id="#photo" src="./carpet.jpg" alt=""></a>
+              </div>
+              <div class="carpet-txt">
+                <!-- <a href="./carpet/carpet.html"> <img class="carpet-img" id="#photo" src="./carpet.jpg" alt=""></a> -->
+                <ul class="ul-carpet">
+                  <a target="_blank" href="./carpet/carpet.html"><h3>CARPET ONLINE SHOP </h3></a>
+                  <li>- You can add, subtract, multiply and divide two numbers.</li>
+                  <li>- You can clear the input field with a clear button.</li>
+                  <li>- You can keep chaining mathematical operations together until you hit the equal button, and the calculator will tell me the correct output.</li>
+                </ul>
+              </div>
+          </div>
 
 
-        <div class="calculator">
-          <p class="calc-txt"> 
-            - You can add, subtract, multiply and divide two numbers.<br>- You can clear the input field with a clear button. <br>- You can keep chaining mathematical operations together until you hit the equal button, and the calculator will tell me the correct output.
-         </p>
-          <a href="./calculator/index.html"> <img class="calc-img" id="#photo" src="./calculator.png" alt=""></a>
-        </div>
+                                        <!--                TIC-TAC-TOE                     -->
+        <section>
+          <div class="tictactoe">
+              <div class="tictactoe-txt">
+                <ul class="ul-tictactoe">
+                  <a target="_blank" href="./TikTakToe/tictactoe.html"><h3>TIC-TAC-TOE</h3></a>
+                  <li>- You can add, subtract, multiply and divide two numbers.</li>
+                  <li>- You can clear the input field with a clear button.</li>
+                  <li>- You can keep chaining mathematical operations together until you hit the equal button, and the calculator will tell me the correct output.</li>
+                </ul>
+              </div>
+              <div class="tictactoe-img">
+                <a href="./TikTakToe/tictactoe.html"><img class="tictactoe-img" id="#photo" src="./tictactoe.jpg" alt=""></a>
+              </div>
+          </div>
 
-        <div class="carpet">
-          <a href="./carpet/carpet.html"> <img class="carpet-img" id="#photo" src="./carpet.jpg" alt=""></a>
-          <p class="carpet-txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae commodi officiis quibusdam ut laudantium cum debitis deleniti iste vel exercitationem omnis sint possimus repudiandae at, nam, quidem voluptatum suscipit. <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquid reprehenderit neque dolores? Aliquid, consequatur. Odit iste illo esse? Placeat odio deserunt odit beatae minus, aspernatur perspiciatis dicta eum impedit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit provident sit perspiciatis qui. Odit natus alias eligendi fugit incidunt excepturi, corrupti hic qui voluptates laborum maxime! Et aut aliquid facilis? </p>
-    
-        </div>
 
-        <div class="tictactoe">
-          <p class="tictactoe-txt"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quae commodi officiis quibusdam ut laudantium cum debitis deleniti iste vel exercitationem omnis sint possimus repudiandae at, nam, quidem voluptatum suscipit. <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquid reprehenderit neque dolores? Aliquid, consequatur. Odit iste illo esse? Placeat odio deserunt odit beatae minus, aspernatur perspiciatis dicta eum impedit. <br> Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit provident sit perspiciatis qui. Odit natus alias eligendi fugit incidunt excepturi, corrupti hic qui voluptates laborum maxime! Et aut aliquid facilis?</p>
-            <a href="./TikTakToe/tictactoe.html"><img class="tictactoe-img" id="#photo" src="./xxo.png" alt=""></a>
-    
-        </div>
-      </section>
            <!-- ////////////////////////////   CONTACT ME!   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ --> 
         
            <div id="message" class="footer">

@@ -10,6 +10,8 @@ html{
   box-sizing: border-box;
   /* background: darksalmon; */
 }
+
+																	/* <<<<<<<<<<<<<             HEADER             >>>>>>>>>>>>>>>>>>>> */
 /* .header{
   height: 1vh;
   width: auto;
@@ -18,7 +20,7 @@ html{
   height: 150px;
   width: 150px;
 }
-.loader {
+/* .loader {
   border: 16px solid #f3f3f3; 
   border-top: 16px solid #e9967a;
   border-radius: 50%;
@@ -32,7 +34,7 @@ html{
 @keyframes spin {
   0% { transform: rotate(10deg); }
   100% { transform: rotate(360deg); }
-}
+} */
 
 
 .intro { 
@@ -68,6 +70,76 @@ input {
   margin-top: 0px;
 }
 
+.row-nav{
+	display: flex;
+	
+}
+.row-nav ul li{
+	color: darkgoldenrod;
+	
+}
+.main-nav{
+	/* float: right;                                        ????????? */
+	list-style: none;
+	/* display: flex; */
+}
+.main-nav li{
+	display: inline-block;
+	/* margin-left: 30px; */
+	margin-right: 60px ;
+	margin-top: 25px ;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+	padding: 8px 0;
+	color: darkgoldenrod;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+	border-bottom: 2px solid #38aaa4;
+}
+
+                              /* <<<<<<<<<<<<<<     ABOUT-ME        >>>>>>>>>>>>>>>>>>>>>> */
+.about{
+	display: flex;
+	width: 100%;
+}
+.about-pic{
+	width: 20px;
+	height: 35px;
+	margin-left: 50px;
+	padding-left: 40px;
+	margin-top: 30px;
+}
+.about-img{
+	border-radius: 190px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+
+.about-txt{
+	width: 70%;
+	margin-left: 350px;
+	margin-top: 30px;
+	width: 60%;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 20px;
+	font-weight: 10;
+}
+
+
+
+																			/*///////////////// PORTFOLIO //////////////////*/
+
 
 .calculator, .carpet, .tictactoe{
   display: flex;
@@ -76,31 +148,70 @@ input {
   width: 40%;
   height: 40PX;
   padding: 20px;
-  margin-left: 90px;
+	margin-left: 190px;
+	/* margin-top: 100px; */
+}
+.ul-calculator{
+	margin-top: 80px;
+}
+.ul-carpet{
+	margin-top: 50px;
+}
+.ul-tictactoe{
+	margin-top: 70px;
+}
+.ul-tictactoe, h3{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	color: darkgoldenrod;
+	font-size: 22px;
+}
+.ul-tictactoe, li{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(83, 62, 7);
+	font-size: 18px;
+	line-height: 30px;
 }
 .calc-img{
 	width: 320px;
     height: 440PX;
     padding: 20px;
-    margin-left: 180px;
-    border-radius: 35px;
+    margin-left: 390px;
+		border-radius: 35px;
+		margin-bottom: 70px;
 
 }
 .carpet-img {
     width: 490px;
     height: 350PX;
     padding: 20px;
-    margin-left: 150px;
-    border-radius: 35px;
+    margin-left: 90px;
+		border-radius: 35px;
+		margin-bottom: 70px;
 	} 
 	.tictactoe-img{
 		width: 420px;
     height: 420PX;
     padding: 20px;
-    margin-left: 130px;
+		margin-left: 50px;
+		margin-bottom: 70px;
     /* border-radius: 35px; */
 	}
-  
+  .portfolio{
+		margin-top: 20px;
+		/* border-bottom: 3px solid #614123; */
+		/* border-top: 3px solid #614123; */
+	
+	}
+	.calculator{
+		background-color: #f7e1d2;
+	}
+	.carpet{
+		background-color: #f7dbc9;
+	}
+	.tictactoe{
+		background-color: #eccfbc;
+	}
 
 														/*///////////////// FOOTER //////////////////*/
 	.footer{
@@ -278,70 +389,4 @@ input {
   } */
 
 
-	.main-nav{
-		float: right;
-		list-style: none;
-	}
-	.main-nav li{
-		display: inline-block;
-		/* margin-left: 30px; */
-		margin-right: 30px ;
-		margin-top: 25px ;
-	}
 
-	.main-nav li a:link,
-	.main-nav li a:visited{
-		padding: 8px 0;
-		color: #f3f3f3;
-		text-decoration: none;
-		text-transform: uppercase;
-		font-size: 16px;
-		border-bottom: 2px solid transparent;
-		transition: border-bottom 0.2s;
-		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	}
-
-	.main-nav li a:hover,
-	.main-nav li a:active{
-		border-bottom: 2px solid #38aaa4;
-	}
-  
-
-
-.about{
-	display: flex;
-	width: 100%;
-}
-.about-pic{
-	width: 20px;
-	height: 35px;
-	margin-left: 50px;
-	padding-left: 40px;
-	margin-top: 30px;
-}
-
-.about-txt{
-	width: 70%;
-	margin-left: 350px;
-	margin-top: 30px;
-	width: 60%;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-size: 20px;
-	font-weight: 10;
-}
-
-.portfolio{
-	margin-top: 20px;
-	/* border-bottom: 3px solid #614123; */
-	/* border-top: 3px solid #614123; */
-
-}
-.calculator{
-	background-color: #f7e1d2;
-}
-.carpet{
-	background-color: #f7dbc9;
-}
-.tictactoe{
-	background-color: #eccfbc;
-}
