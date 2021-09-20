@@ -52,7 +52,7 @@ gap: 3.2rem;
 
 .main-nav li a:hover,
 .main-nav li a:active{
-	border-bottom: 2px solid #38aaa4;
+	color: #D17D5B;
 }
 #all{
 	display: none;
