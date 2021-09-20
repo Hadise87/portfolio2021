@@ -12,13 +12,47 @@ html{
 }
 
 																	/* <<<<<<<<<<<<<             HEADER             >>>>>>>>>>>>>>>>>>>> */
-/* .header{
-  height: 1vh;
-  width: auto;
-} */
+.header{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ height: 3.6rem;
+ padding: 0 4.6rem;
+ margin-top: 35px;
+
+}
 .avataar{
-  height: 150px;
-  width: 150px;
+  height: 110px;
+  width: 110px;
+}
+.main-nav-list{
+list-style: none;
+display: flex;
+gap: 3.2rem;
+}
+.main-nav-link:link
+.main-nav-link:visited{
+	text-decoration: none;
+	color: #000000;
+	font-weight: 900;
+	font-size: 1.8rem;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+	padding: 8px 0;
+	color: darkgoldenrod;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+	border-bottom: 2px solid #38aaa4;
 }
 #all{
 	display: none;
@@ -31,6 +65,7 @@ html{
   height: 120px;
   animation: spin 2s linear 3; 
 	margin-top: 250px;
+	margin-left: 630px;
 	animation-iteration-count: infinite;
 }
 
@@ -42,15 +77,11 @@ html{
 
 .intro { 
 	font-family: "Muli", sans-serif;
-	/* background: darksalmon; */
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	/* height: 100vh; */
-	/* margin-top: 40px; */
   text-align: center;
-  /* width: 100%; */
 }
 
 
@@ -81,34 +112,8 @@ input {
 	color: darkgoldenrod;
 	
 }
-.main-nav{
-	/* float: right;                                        ????????? */
-	list-style: none;
-	/* display: flex; */
-}
-.main-nav li{
-	display: inline-block;
-	/* margin-left: 30px; */
-	margin-right: 60px ;
-	margin-top: 25px ;
-}
 
-.main-nav li a:link,
-.main-nav li a:visited{
-	padding: 8px 0;
-	color: darkgoldenrod;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-size: 16px;
-	border-bottom: 2px solid transparent;
-	transition: border-bottom 0.2s;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
 
-.main-nav li a:hover,
-.main-nav li a:active{
-	border-bottom: 2px solid #38aaa4;
-}
 
                               /* <<<<<<<<<<<<<<     ABOUT-ME        >>>>>>>>>>>>>>>>>>>>>> */
 .about{
@@ -152,7 +157,6 @@ input {
   height: 40PX;
   padding: 20px;
 	margin-left: 190px;
-	/* margin-top: 100px; */
 }
 .ul-calculator{
 	margin-top: 80px;
@@ -202,8 +206,6 @@ input {
 	}
   .portfolio{
 		margin-top: 20px;
-		/* border-bottom: 3px solid #614123; */
-		/* border-top: 3px solid #614123; */
 	
 	}
 	.calculator{

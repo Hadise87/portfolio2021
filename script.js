@@ -28,7 +28,7 @@
 
 
 var i = 0;
-var txt = 'Hello !'; 
+var txt = 'HADISEH SHIROUDI'; 
 var speed = 150;
 
 window.onload = function typeName() {
