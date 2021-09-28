@@ -31,16 +31,19 @@ var i = 0;
 var txt = 'HADISEH SHIROUDI'; 
 var speed = 150;
 
-window.onload = function typeName() {
-  if (i < txt.length) {
-    document.getElementById("myname").innerHTML += txt.charAt(i);
-    i++;
-    setTimeout(typeName, speed);
+window.onload = () =>  {
+  function typeName() {
+    if (i < txt.length) {
+      document.getElementById("myname").innerHTML += txt.charAt(i);
+      i++;
+      setTimeout(typeName, speed);
+    }
   }
-  var theDelay2 = 3;
-  var theDelay3 = 4;
-  var timer = setTimeout("showText1()",theDelay2*1000)
-  var timer = setTimeout("showText2()",theDelay3*1000)
+  setTimeout(typeName, 1800)
+  // var theDelay2 = 3;
+  // var theDelay3 = 4;
+  setTimeout("showText1()", 4000)
+  setTimeout("showText2()", 4100)
 }
 function showText1(){
   document.getElementById("delayedTextline2").style.visibility = "visible";
@@ -63,3 +66,7 @@ setTimeout(() => {
   document.getElementById("all").style.display = "block"
 
 }, 2000);
+
+() =>{
+  console.log("HADISEH!");
+}
