@@ -30,21 +30,49 @@
 var i = 0;
 var txt = 'HADISEH SHIROUDI'; 
 var speed = 150;
+let typing_name_inorder = true; 
 
-window.onload = () =>  {
-  function typeName() {
-    if (i < txt.length) {
-      document.getElementById("myname").innerHTML += txt.charAt(i);
-      i++;
-      setTimeout(typeName, speed);
+
+
+let typeName = (time, work) =>{
+  return new Promise ((resolve, reject) =>{
+    if(typing_name_inorder){
+      setTimeout(() => {
+        resolve(work());
+      },time);
+    }else{
+      reject(console.log("type nothing!"));
     }
-  }
-  setTimeout(typeName, 1800)
-  // var theDelay2 = 3;
-  // var theDelay3 = 4;
-  setTimeout("showText1()", 4000)
-  setTimeout("showText2()", 4100)
+  })
 }
+
+
+typeName(1800, () => console.log("HADISEH SHIROUDI"))
+.then(() =>{
+  return typeName(4000, () => console.log("Front-End Web Developer "))
+})
+
+.then(() =>{
+  return typeName(4100, () => console.log("with a passion of learning"))
+})
+
+
+
+
+// window.onload = () =>  {
+//   function typeName() {
+//     if (i < txt.length) {
+//       document.getElementById("myname").innerHTML += txt.charAt(i);
+//       i++;
+//       setTimeout(typeName, speed);
+//     }
+//   }
+//   setTimeout(typeName, 1800)
+//   // var theDelay2 = 3;
+//   // var theDelay3 = 4;
+//   setTimeout("showText1()", 4000)
+//   setTimeout("showText2()", 4100)
+// }
 function showText1(){
   document.getElementById("delayedTextline2").style.visibility = "visible";
 
