@@ -112,3 +112,9 @@ setTimeout(() => {
 () =>{
   console.log("HADISEH!");
 }
+
+
+
+function(){
+  emailjs.init("")
+}

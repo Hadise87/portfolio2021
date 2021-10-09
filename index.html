@@ -149,12 +149,28 @@
   </div>
   <script src="./script.js"></script>
   <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js">
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"> 
 </script>
+
+<!-- responsible for loading the EmailJS SDK    -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+
+<!-- initializing the EmailJS library with my user_id. -->
 <script type="text/javascript">
-   (function(){
-      emailjs.init("user_jcqru1F2FaKZBDFDkPp1x");
-   })();
+(function() {
+emailjs.init("user_jcqru1F2FaKZBDFDkPp1x");
+})();
+function sendmail() {
+  let fullName = document.getElementById("name").value;
+  let user = document.getElementById("email").value;
+  let message = document.getElementById("message").value;
+
+    var contactParams = {
+      
+    }
+}
 </script>
 </body>
 </html>
+
+
